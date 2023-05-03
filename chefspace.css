@@ -1,0 +1,56 @@
+
+.meals-slide-container {
+    max-width: 1800px;
+    width: 100%;
+    padding: 40px 0;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+
+
+.meals-card{
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 800px;
+    margin-left: 30px;
+    border-radius: 25px;
+    background-color: #FFF;
+}
+
+.meals-image-content,
+.meals-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.meals-image-content {
+    color: #FFF;
+}
+
+.meals-card-content {
+    background-color: #2cb484;
+}
+
+.meals-card-image {
+    position: relative;
+    height: 550px;
+    width: 280px;
+    border-radius: 2%;
+    background: #FFF;
+    padding: 3px;
+}
+
+.meals-card-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+    border: 4px solid #2cb484;
+} 
+
+.meals-overlay {
+    z-index: -1;
+    background-color: #2cb484;
+}
