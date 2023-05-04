@@ -108,16 +108,44 @@ h3 {
     height: 170px;
 }
 
+a {
+   color: #fff;
+    
+  }
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { 
+    text-decoration: none; 
+    font-size: 1.2em;
+    color: red;
+
+}
+
+
+a:active { text-decoration: none; }
+
+
 input[type=submit] {
-    background-color: #FFc300;
+    background-color: #fff;
     font-family: 'Raleway', 'Lora', sans-serif;
     margin-right: 15px;
-    color: white;
+    color: #00aa9f;
     font-size: 1.2rem;
     font-weight: 800;
     padding: 0.7rem;
     border-radius: 1rem;
     box-shadow: 5px 5px 10px black;
+  }
+
+  input[type=submit]:hover {
+    background-color: #00aa9f;
+    color: #fff;
+    box-shadow: 5px 5px 10px white;
   }
 
 .landing-page {
@@ -813,6 +841,7 @@ iframe {
     font-family: "Raleway", sans-serif;
 }
 
+
 .reheating-container {
     display: grid;
     gap: 105px;
@@ -907,11 +936,24 @@ iframe {
 }
 
 .legal-req {
-   min-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   min-width: 400px;
    max-width: 650px;
     border: #000 solid 3px;
     margin: 1.5rem;
     padding: 1rem;
+    word-wrap: break-word;
+white-space: pre-wrap;
+word-break: break-word;
+}
+
+.legal-req h2 {
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 5px 5px 5px black;
 }
 
 .legal-req li {

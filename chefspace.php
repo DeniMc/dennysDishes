@@ -35,14 +35,14 @@ require "protect.php";
 
         <main class="post-main">
           <div class="content-card post-board">
-            <h2>Creating your menu</h2>
+            <h2><a href="#creating-menu">Creating your Menu</a></h2>
             <ul>
               <li><a href="#HomeMealGPT">HomeMeal GPT Helper</a></li>
               <li>Editing an Existing Dish</li>
               <li>Chef Availability vs Dish Availability</li>
               <li>Limiting Dish availability</li>
               <li>Taking Menu Photos</li>
-              <li><a href="#adding-dishes">Adding Dishes / Creating Menu<</a>/li>
+              <li><a href="#adding-dishes">Adding Dishes / Creating Menu</a></li>
               <li>Adding a new Menu item from template</li>
               
             </ul>
@@ -96,7 +96,6 @@ require "protect.php";
                 
               </li>
               <li><a href="#stripe-FAQ">Stripe FAQs</a></li>
-              <li>Paying Deposit</li>
               
             </ul>
           </div>
@@ -158,18 +157,88 @@ require "protect.php";
         </footer>
       </section>
       <section class="one post-one post-section">
-        <h1>Creating your Menu</h1>
-        
-        
-   <p>Create perfect Meal Descriptions with our AI Description Generator</p>
-        <h2 id="HomeMealGPT"><a href="./GPT.html">HomeMealGPT Helper</a></h2>
+        <h1 id="creating-menu">Creating your Menu</h1>
+
+        <div class="creating-menu-content">
+
+        <p>When you are beginning to think about your menu we encourage you to consider multiple points; what are you confident in making, what represents you, what can you offer that a customer is unlikely to make for themselves and what ingredients are readily available.</p>
+        <p>With that in mind here are some tips that our existing chefs have passed on to us as they started their chefs journey.</p>
 
         <p>
+  <a href="./docs/postboarding/createMenu/HomeMeal_How_To_Create_Menu.pdf"
+    >How to Create a Menu pdf</a
+  >
+</p>
+        <p>
+  <a href="./docs/postboarding/createMenu/HomeMeal_How_To_Write_Description.pdf"
+    >HomeMeal How to Write Meal Description pdf</a
+  >
+</p>
+
+
+<p><strong>Create dishes with overlapping ingredients.</strong><br>
+This can help make your cooking process more efficient across multiple orders.<br>
+<strong>Offer portion sizes that can feed between single and 'family size' portions.</strong><br>
+Some customers order HomeMeal meals to feed their family, or to meal prep during their work week. You might consider adding larger or 'family size' versions of some menu items to allow for larger orders.</p><br>
+<h3>Choose dishes that can travel and reheat well.</h3>
+<p>Remember that your food will be cooled and refrigerated in HomeMeal bags when it is delivered to your customers. You should ensure your food will maintain its quality after refrigeration and, where applicable, reheating.</p> <br>
+<h3>Consider adding holiday or seasonal items, where applicable.</h3>
+<p>We have found that these can be very popular with customers.</p><br>
+<p>While it's important to think about the things that you can do it is equally as important to consider the things that you cannot do. The following points are important for you to keep in mind at all times when creating your menu and adding or amending dishes.</p>
+<h3>Things to avoid on your menu</h3><br>
+<strong><h5>No raw seafood or shellfish.</h5></strong><br>
+<p> Due to food safety considerations, we do not allow dishes containing raw seafood items on our platform. However, we do allow cooked seafood, and products like bonito flakes, oyster sauce, fish sauce, and shrimp paste.
+<ul>
+  	<li>No ice cream or other frozen foods.</li>
+	 <li>No uncooked food, such as raw dough or batter, where the cooking process must be finished by the customer. </li>
+		<li>No alcoholic, hemp, or cannabis food items.</li> 
+		<li>No options for customisation or special requests.</li>
+  </ul>
+  
+HomeMeal does not support the ability for customers to make any special requests when ordering a dish from your menu. </p>
+<p> Please do not use descriptions such as "can be made vegetarian upon request" or "choose your own protein/spice level." We encourage you to feature these alternative options (different spice levels, different proteins, different sizes) as separate menu items to provide more variety for customers.</p>
+
+<h2>How to write a dish description</h2><br>
+<p>We have all eaten in restaurants where the menu has simply included a list of ingredients and you are sat feeling uninspired. Keep that in mind when you start thinking about your dish descriptions - think of this both as an opportunity to show off your culinary skills and a chance to show why this dish is special.</p><br>
+<h3>Bone-In South Indian Chicken Curry</h3>
+<p> This spicy, aromatic curry features slow-roasted chicken and pan-fried crispy chickpeas served in a rich, creamy sauce.
+This dish was one of the first taught to me by my grandmother, has been served at family occasions for longer than I can remember and is the dish all my friends ask for when coming to visit!</p><br>
+<p> To make the meal complete this curry comes with two pieces of naan bread, a portion of white rice and a mango chutney dip.</p><br>
+<p>Let's break down the above example.<br>
+The name:<br>
+Bone-In South Indian Chicken Curry. <em>Please capitalise the first letter of each word</em><br>
+The description:<br>
+Explain your dish while mentioning the following aspects:<br>
+<ul>
+  <li>Top two flavours (examples: tangy, sweet, spicy, aromatic)</li>
+	<li>Consistency (examples: juicy, crunchy, smooth, creamy, rich)</li>
+	<li>Top two ingredients used (examples: slow roasted chicken, chickpeas)</li>
+	<li>	A personal or historical fact about the dish (example: This recipe was handed down from my mother and is a family favourite!)</li>	
+	<li>Please specify if the dish will include any garnishes or sides. (Example: Dish will come with 2 slices of lime, 3 pieces of roti, a bowl of rice, a side of homemade ketchup, etc)</li>
+		<li>Customers will NOT be able to modify their dish. Please do not give an option such as "spicy or not spicy", "choose your protein", "this dish can be made vegan", etc. in the description section.</li>
+	<li>Please do NOT make health claims such as "high protein dish", "will heal you", "very healthy", "will make you lose weight", etc.</li>
+</ul>
+<br>
+This description is a template. Please use as a guideline and update this to make it your own.<br>
+If you find you are struggling with this task we now have the very helpful HomeMealGPT here</p>
+
+</div>
+        
+  <div class="homeMealGPT-router">
+        
+   <p id="meal-GPT">Create perfect Meal Descriptions with our AI Description Generator</p>
+        <h2 class="HomeMealGPT" id="HomeMealGPT"><a href="./GPT.html">HomeMealGPT Helper</a></h2>
+
+        </div>
+
+     
+<h2 class="sub-heads" id="add-meals">Adding Meals to your Menu</h2>
+
+<p id="adding-meals-pdf">
   <a href="./docs/postboarding/createMenu/HomeMeal_Adding_Meals.pdf"
     >HomeMeal Adding Meals pdf</a
   >
 </p>
-
 
 <!-- Card Slider 23 Add Meal Screen shots -->
 
@@ -451,15 +520,7 @@ Please select ‘Pickup’ for those chefs intending to have customers collect t
               </div>
               <div class="meals-card-content">
                   <span class="slider-number">19</span>
-         <p>         Once an option (Delivery/
-Pickup) is selected the
-days in which you will offer
-food will appear.
-Please select all days that
-are appropriate.
-Upon making selection
-press Save (top right
-corner of screen)</p>
+         <p>         Once an option (Delivery/ Pickup) is selected the days in which you will offer food will appear. Please select all days that are appropriate. Upon making selection press Save (top right corner of screen)</p>
               </div>
           </div>
 
@@ -472,16 +533,7 @@ corner of screen)</p>
               </div>
               <div class="meals-card-content">
                   <span class="slider-number">20</span>
-         <p>         Once an option (Delivery/
-         Once all sections in the
-New Meal list have been
-completed and turned
-green a Preview button will
-appear at the bottom of
-the list.
-Click Preview to reveal
-how the dish will look to
-app users.</p>
+         <p>         Once an option / all sections in the New Meal list have been completed and turned green a Preview button will appear at the bottom of the list. Click Preview to reveal how the dish will look to app users.</p>
               </div>
           </div>
          
@@ -495,8 +547,7 @@ app users.</p>
               </div>
               <div class="meals-card-content">
                   <span class="slider-number">21</span>
-                  <p>Check everything is as you
-wish it to be.</p>
+                  <p>Check everything is as you wish it to be.</p>
               </div>
           </div>
 
@@ -509,8 +560,7 @@ wish it to be.</p>
               </div>
               <div class="meals-card-content">
                   <span class="slider-number">22</span>
-                  <p>Once you are pleased with
-the dish click ‘Post’</p>
+                  <p>Once you are pleased with the dish click ‘Post’</p>
               </div>
           </div>
 
@@ -523,11 +573,7 @@ the dish click ‘Post’</p>
               </div>
               <div class="meals-card-content">
                   <span class="slider-number">23</span>
-                  <p>Your meal is now on the
-app.
-To repeat the process click
-the + in the top right corner
-of the app.</p>
+                  <p>Your meal is now on the app. To repeat the process click the + in the top right corner of the app.</p>
               </div>
           </div>
          
@@ -542,51 +588,135 @@ of the app.</p>
   <div class="swiper-pagination"></div>
 </div>
 
+<h2 class="sub-heads" id="edit-meals">Edit Price/Portions, Unhide / Delete Dishes</h2>
 
-
-<p>
-  <a href="./docs/postboarding/createMenu/HomeMeal_Deleting_Dishes.pdf"
-    >HomeMeal Deleting Dishes pdf</a
-  >
-</p>
+<div class="pdf-container">
 <p>
   <a href="./docs/postboarding/createMenu/HomeMeal_Editing_Price_Portions.pdf"
     >HomeMeal Editing Price and Portions pdf</a
   >
 </p>
 <p>
-  <a href="./docs/postboarding/createMenu/HomeMeal_How_To_Create_Menu.pdf"
-    >How to Create a Menu pdf</a
-  >
-</p>
-<p>
-  <a href="./docs/postboarding/createMenu/HomeMeal_How_To_Write_Description.pdf"
-    >HomeMeal How to Write Meal Description pdf</a
-  >
-</p>
-<p>
-  <a href="./docs/postboarding/createMenu/HomeMeal_Pause_Delete.pdf"
-    >HomeMeal Pause / Delete pdf</a
-  >
-</p>
-<p>
-  <a href="./docs/postboarding/createMenu/HomeMeal_Pausing_Dishes.pdf"
-    >HomeMeal Pausing Dishes pdf</a
+  <a href="./docs/postboarding/createMenu/HomeMeal_Deleting_Dishes.pdf"
+    >HomeMeal Deleting Dishes pdf</a
   >
 </p>
 <p>
   <a href="./docs/postboarding/createMenu/HomeMeal_Unhiding_Hidden_Dishes.pdf"
-    >Unhiding hidden dishes</a
+    >Unhiding hidden dishes pdf</a
   >
 </p>
 
-        <div class="video-box">
-       
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/vKaNQ4af-6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/EMmHixjZXTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<!-- Card Slider multiple screenshots Edit / Unhide / Delete Dishes -->
 
-        </div>
+
+<div class="edit-meals-slide-container swiper">
+  <div class="slide-content">
+      <div class="slide-wrapper swiper-wrapper">
+         
+          <div class="edit-meals-card swiper-slide">
+              <div class="edit-meals-image-content">
+                  <span class="meals-overlay"></span>
+                  <div class="edit-meals-card-image">
+                      <img src="./images/pausingMeals/pausingMeals1.png" alt="1st screenshot">
+                  </div>
+              </div>
+              <div class="edit-meals-card-content">
+                  <span class="slider-number">1</span>
+
+                  <h2>Deleting Dishes</h2>
+                  
+                  <p>Click on the Chef button in the lower left corner. App will display all of your current available meals. Select the dish you want to delete by tapping the red Bin button in the top right corner of the image.</p>
+                  <p>Confirm delete by pressing Yes</p>
+
+              </div>
+          </div>
+         
+          <div class="edit-meals-card three-shot-card  swiper-slide">
+              <div class="edit-meals-image-content">
+                  <span class="meals-overlay"></span>
+                  <div class="edit-meals-card-image">
+                      <img src="./images/pausingMeals/pausingMeals2.png"" alt="2nd screenshot">
+                  </div>
+              </div>
+              <div class="edit-meals-card-content">
+                  <span class="slider-number">2</span>
+
+                  <h2>Editing Price/number of portions</h2>
+                  
+                  <p>Click on the Chef button in the lower left corner. App will display all of your current available meals.</p>
+                  <p>Select the dish you want to return to your available offerings by tapping the image.</p>
+                  <p>Select Price / Portions - second on the list</p>
+
+              </div>
+          </div>
+          <div class="edit-meals-card swiper-slide">
+              <div class="edit-meals-image-content">
+                  <span class="meals-overlay"></span>
+                  <div class="edit-meals-card-image">
+                      <img src="./images/pausingMeals/pausingMeals3.png"" alt="3rd screenshot">
+                  </div>
+              </div>
+              <div class="edit-meals-card-content">
+                  <span class="slider-number">3</span>
+                  
+                  <h2>Editing Price/number of portions</h2>
+                  <p>Update the Price and/or number of portions. Click on Save in the top right corner to prevent any loss of effort.</p>
+                  <p>VERY IMPORTANT Click on the Update button to confirm the dish is active again</p>
+
+              </div>
+          </div>
+
+          <div class="edit-meals-card three-shot-card swiper-slide">
+              <div class="edit-meals-image-content">
+                  <span class="meals-overlay"></span>
+                  <div class="edit-meals-card-image">
+                      <img src="./images/pausingMeals/pausingMeals4.png"" alt="4th screenshot">
+                  </div>
+              </div>
+              <div class="edit-meals-card-content">
+                  <span class="slider-number">4</span>
+
+                  <h2>Unhiding hidden dishes</h2>
+                  
+                  <p>Click on the Chef button in the lower left corner.App will display all of your current available meals. Select the dish you want to return to your available offerings by tapping the image.</p>
+                  <p>Click on Timing - the last of the four options</p>
+                  <p>Select the offer method</p>
+
+              </div>
+          </div>
+
+          <div class="edit-meals-card swiper-slide">
+              <div class="edit-meals-image-content">
+                  <span class="meals-overlay"></span>
+                  <div class="edit-meals-card-image">
+                      <img src="./images/pausingMeals/pausingMeals5.png"" alt="5th screenshot">
+                  </div>
+              </div>
+              <div class="edit-meals-card-content">
+                  <span class="slider-number">5</span>
+
+                  <h2>Unhiding hidden dishes</h2>
+                  
+                  <p>Confirm the days that you are now able to offer this dish. Click on Save in the top right hand corner of your screen</p>
+                  <p><bold>VERY IMPORTANT</bold><br>Click on the Update button to confirm the dish is active again</p>
+
+              </div>
+          </div>
+
+
+
+</div>
+  </div>
+  
+  <div class="swiper-navBtn swiper-button-next "></div>
+  <div class="swiper-navBtn swiper-button-prev "></div>
+  <div class="swiper-pagination"></div>
+</div>
+
+
       
       </section>
       <section class="two post-two post-section">
@@ -685,6 +815,15 @@ Can you contribute a recipe to a newsletter, can you offer an insight into how y
 Don't just walk around the market looking for the best ingredients at the best prices - use it as an opportunity to network. Take samples along to stall holders and encourage them to taste what you cook with their ingredients. Develop a network throughout the market, wow them so much you have them talking about you with their client base and ask if you can leave flyers or pin a QR code to their stall. It won't affect their business if their other customers order from you as you will start buying in bigger quantity, which is win-win!</p>
 </div>
 
+<div class="video-box">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RmwI_QqcPQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/b_gvwR1pg5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</div>
+
+
         <p id="order-flyers">Order some Marketing Material from HomeMeal <a href="./contact.html"> Right Here</a></p>
 
         <div class="photograph-dishes">
@@ -735,14 +874,16 @@ The HomeMeal top tip: Don't over complicate your shot! Keep it simple. <em>Simpl
   >
 </p>
 
-        <div class="video-box">
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/RmwI_QqcPQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="video-box">
+       
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/vKaNQ4af-6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/b_gvwR1pg5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/EMmHixjZXTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-        </div>
+       </div>
 
+       
 
       </section>
 
@@ -931,12 +1072,214 @@ If all of your information seems correct but you still haven't received your pay
     <section class="seven post-seven post-section">
       <h1>Setting up Profile</h1>
 
-      <p>
+      <p id="chef-profile-pdf">
   <a href="./docs/postboarding/chefProfile/HomeMeal_Creating_Chef_Profile.pdf"
     >Creating Chef Profile tips</a
   >
 </p>
-      <h2 id="profileGPT"><a href="./GPTprofile.html">HomeMealGPT Helper</a></h2>
+
+
+<div class="meals-slide-container swiper">
+  <div class="slide-content">
+      <div class="slide-wrapper swiper-wrapper">
+         
+          <div class="meals-card swiper-slide">
+              <div class="meals-image-content">
+                  <span class="meals-overlay"></span>
+                  <div class="meals-card-image">
+                      <img src="./images/chefProfile/chef-profile1.png" alt="1st screenshot">
+                  </div>
+              </div>
+              <div class="meals-card-content">
+                  <span class="slider-number">1</span>
+                  
+                  <p>Click on ‘Profile’ in the lower right corner</p>
+
+              </div>
+          </div>
+
+          <div class="meals-card swiper-slide">
+              <div class="meals-image-content">
+                  <span class="meals-overlay"></span>
+                  <div class="meals-card-image">
+                      <img src="./images/chefProfile/chef-profile2.png" alt="2nd screenshot">
+                  </div>
+              </div>
+              <div class="meals-card-content">
+                  <span class="slider-number">2</span>
+                  
+                  <p>In the ‘Your Profile’ section click on ‘Profile’ (second from top)</p>
+
+              </div>
+          </div>
+
+          <div class="meals-card swiper-slide">
+              <div class="meals-image-content">
+                  <span class="meals-overlay"></span>
+                  <div class="meals-card-image">
+                      <img src="./images/chefProfile/chef-profile3.png" alt="3rd screenshot">
+                  </div>
+              </div>
+              <div class="meals-card-content">
+                  <span class="slider-number">3</span>
+                  
+                  <p>Click on ‘Edit your chef page</p>
+
+              </div>
+          </div>
+
+
+          <div class="meals-card swiper-slide">
+              <div class="meals-image-content">
+                  <span class="meals-overlay"></span>
+                  <div class="meals-card-image">
+                      <img src="./images/chefProfile/chef-profile4.png" alt="4th screenshot">
+                  </div>
+              </div>
+              <div class="meals-card-content">
+                  <span class="slider-number">4</span>
+                  
+                  <p>Fill the form (first name and surname) and confirm with “Continue”</p>
+
+              </div>
+          </div>
+
+          <div class="meals-card swiper-slide">
+              <div class="meals-image-content">
+                  <span class="meals-overlay"></span>
+                  <div class="meals-card-image">
+                      <img src="./images/chefProfile/chef-profile5.png" alt="5th screenshot">
+                  </div>
+              </div>
+              <div class="meals-card-content">
+                  <span class="slider-number">5</span>
+                  
+                  <p>Upload your photo</p>
+
+              </div>
+          </div>
+
+          <div class="meals-card swiper-slide">
+              <div class="meals-image-content">
+                  <span class="meals-overlay"></span>
+                  <div class="meals-card-image">
+                      <img src="./images/chefProfile/chef-profile6.png" alt="6th screenshot">
+                  </div>
+              </div>
+              <div class="meals-card-content">
+                  <span class="slider-number">6</span>
+                  
+                  <p>You can modify the image (turning, cutting,zooming...). Confirm by clicking on the tick in the upper right corner.</p>
+
+              </div>
+          </div>
+
+          <div class="meals-card swiper-slide">
+              <div class="meals-image-content">
+                  <span class="meals-overlay"></span>
+                  <div class="meals-card-image">
+                      <img src="./images/chefProfile/chef-profile7.png" alt="7th screenshot">
+                  </div>
+              </div>
+              <div class="meals-card-content">
+                  <span class="slider-number">7</span>
+                  
+                  <p>Confirm with “Continue”</p>
+
+              </div>
+          </div> <div class="meals-card swiper-slide">
+              <div class="meals-image-content">
+                  <span class="meals-overlay"></span>
+                  <div class="meals-card-image">
+                      <img src="./images/chefProfile/chef-profile7.png" alt="7th screenshot">
+                  </div>
+              </div>
+              <div class="meals-card-content">
+                  <span class="slider-number">7</span>
+                  
+                  <p>Confirm with “Continue”</p>
+
+              </div>
+          </div>
+
+          <div class="meals-card swiper-slide">
+              <div class="meals-image-content">
+                  <span class="meals-overlay"></span>
+                  <div class="meals-card-image">
+                      <img src="./images/chefProfile/chef-profile8.png" alt="8th screenshot">
+                  </div>
+              </div>
+              <div class="meals-card-content">
+                  <span class="slider-number">8</span>
+                  
+                  <p>Tell us something about yourself by filling in three facts. Confirm with “Continue”</p>
+
+              </div>
+          </div>
+
+          <div class="meals-card swiper-slide">
+              <div class="meals-image-content">
+                  <span class="meals-overlay"></span>
+                  <div class="meals-card-image">
+                      <img src="./images/chefProfile/chef-profile9.png" alt="9th screenshot">
+                  </div>
+              </div>
+              <div class="meals-card-content">
+                  <span class="slider-number">9</span>
+                  
+                  <p>Fill in Storytime. Tell us your cooking-related story. Confirm with “Continue”</p>
+
+              </div>
+          </div>
+
+          <div class="meals-card swiper-slide">
+              <div class="meals-image-content">
+                  <span class="meals-overlay"></span>
+                  <div class="meals-card-image">
+                      <img src="./images/chefProfile/chef-profile10.png" alt="10th screenshot">
+                  </div>
+              </div>
+              <div class="meals-card-content">
+                  <span class="slider-number">10</span>
+                  
+                  <p>Location. Add the location your kitchen is based.Confirm with “Continue”</p>
+
+              </div>
+          </div>
+
+          <div class="meals-card swiper-slide">
+              <div class="meals-image-content">
+                  <span class="meals-overlay"></span>
+                  <div class="meals-card-image">
+                      <img src="./images/chefProfile/chef-profile11.png" alt="11th screenshot">
+                  </div>
+              </div>
+              <div class="meals-card-content">
+                  <span class="slider-number">11</span>
+                  
+                  <p>Submit your profile by clicking “Continue”</p>
+
+              </div>
+          </div>
+
+
+          </div>
+  </div>
+  
+  <div class="swiper-navBtn swiper-button-next "></div>
+  <div class="swiper-navBtn swiper-button-prev "></div>
+  <div class="swiper-pagination"></div>
+</div>
+      
+
+      <div class="homeMealGPT-router" >
+        
+        <p id="profile-GPT">Create Cool intuitive Chef Profiles with our AI Profile Generator</p>
+        <h2 class="HomeMealGPT" id="profileGPT"><a href="./GPTprofile.html">HomeMealGPT Helper</a></h2>
+     
+             </div>
+
+
     </section>
 
 
