@@ -1187,20 +1187,7 @@ If all of your information seems correct but you still haven't received your pay
                   <p>Confirm with “Continue”</p>
 
               </div>
-          </div> <div class="meals-card swiper-slide">
-              <div class="meals-image-content">
-                  <span class="meals-overlay"></span>
-                  <div class="meals-card-image">
-                      <img src="./images/chefProfile/chef-profile7.png" alt="7th screenshot">
-                  </div>
-              </div>
-              <div class="meals-card-content">
-                  <span class="slider-number">7</span>
-                  
-                  <p>Confirm with “Continue”</p>
-
-              </div>
-          </div>
+          </div> 
 
           <div class="meals-card swiper-slide">
               <div class="meals-image-content">
