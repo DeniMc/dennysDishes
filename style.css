@@ -148,10 +148,10 @@ input[type=submit] {
     box-shadow: 5px 5px 10px white;
   }
 
-.landing-page {
+#landing-page {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     min-height: 100vh;
     max-height: 300vh;
     background: #a6fac2;
