@@ -51,7 +51,7 @@ nav {
     position: relative;
     z-index: 10;
     font-family: 'Economica', sans-serif;
-    font-size: 1.857em;
+    font-size: 1.657em;
     text-transform: uppercase;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -148,6 +148,8 @@ nav {
     list-style: none outside none;
     text-align: left;
     text-transform: none;
+    display: block;
+    z-index: 100;
   }
   .menu-wrapper .sub-menu li {
     display: block;
@@ -229,6 +231,7 @@ nav {
     .menu-wrapper .menu .rightalign {
       float: none;
     }
+   
     .menu-wrapper li + li a:before {
       content: "";
     }
@@ -266,12 +269,13 @@ nav {
     }
     .menu-wrapper .menu .has-subnav {
       position: relative;
+      
     }
     .menu-wrapper li .sub-menu.active {
       max-height: 30em;
       overflow: visible;
       position: relative;
-      z-index: 9;
+      z-index: 110;
       transition: max-height 0.5s ease-out;
     }
     .menu-wrapper .toggle-link {
