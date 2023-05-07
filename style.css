@@ -345,9 +345,10 @@ footer .wave#wave4
 }
 
 .top-tip-links:hover {
-    color: #fff;
-    background-color: #Fe676a;
-    
+    background-color: #Fe676a;   
+} 
+.top-tip-links a:hover {
+    color: #F5F2E8;
 } 
 
 .top-tip-links img {
@@ -359,6 +360,16 @@ footer .wave#wave4
     color: #000;
     font-size: 1.7rem;
 }
+
+@media screen and (max-width: 450px){
+    .top-tip-links img {
+        width: 3rem;
+    }
+    .top-tip-links a {
+        font-size: 1.4rem;
+    }
+}
+
 
 main {
     display: flex;
@@ -699,7 +710,9 @@ span {
 }
 
 .button:hover{
-    background: #265DF2;
+    background: #Fe676a;
+    font-weight: 600;
+    color: #FFc300;
 }
 
 .swiper-navBtn {
@@ -832,7 +845,7 @@ justify-content: center;
 /* Media Article cards */
 
 .media-post {
-    min-width: 500px;
+    min-width: 375px;
     max-width: 600px;
     border: #2cb484 6px solid;
     border-radius: 1rem;
@@ -873,6 +886,13 @@ justify-content: center;
 
 iframe {
     margin: 4rem;
+}
+
+video-post {
+    min-width: 375px;
+    max-width: 600px;
+    min-height: 300px;
+    max-height: 450px;
 }
 
 .h2 {
@@ -954,7 +974,7 @@ iframe {
     overflow-y: scroll;
     border: #FFc300 solid 5px;
     border-radius: 1rem;
-    padding: 1.5rem;
+    padding: .5rem;
     margin: 2rem;
 }
 
@@ -981,7 +1001,7 @@ iframe {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-   min-width: 400px;
+   min-width: 370px;
    max-width: 650px;
     border: #000 solid 3px;
     margin: 1.5rem;
