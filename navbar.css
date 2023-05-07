@@ -51,7 +51,7 @@ nav {
     position: relative;
     z-index: 10;
     font-family: 'Economica', sans-serif;
-    font-size: 1.657em;
+    font-size: 1.357em;
     text-transform: uppercase;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -95,7 +95,8 @@ nav {
   }
   .menu-wrapper a:hover {
     border-bottom: 1px solid rgba(255, 255, 255, 0.9);
-    transition: all 0.5s;
+    color: red;
+    font-size: 1em;
   }
   .menu-wrapper .menu > .current-menu-item > a,
   .menu-wrapper .menu > .current-menu-ancestor > a {
@@ -108,6 +109,7 @@ nav {
   .menu-wrapper .menu > .current-menu-item > a:hover,
   .menu-wrapper .menu > .current-menu-ancestor > a:hover {
     background: #fffdfd;
+    font-size: 1.357em;
   }
   .menu-wrapper .menu > .current-menu-item > a:hover:after,
   .menu-wrapper .menu > .current-menu-ancestor > a:hover:after {
