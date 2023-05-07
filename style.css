@@ -872,6 +872,10 @@ justify-content: center;
     border-bottom: #000 1px solid;
 }
 
+.media-post a {
+    color: blue;
+}
+
 .articles {
     display: flex;
     flex-wrap: wrap;
