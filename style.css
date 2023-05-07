@@ -170,7 +170,7 @@ header {
 }
 
 @media screen and (max-width: 600px) {
-    header h1 {
+    header h1, post-header h1 {
         display: none;
     }
 }
@@ -262,6 +262,7 @@ footer .wave {
 
 footer .wave#wave1
 {
+    
     z-index: 1000;
     opacity: 1;
     bottom: 0;
@@ -892,7 +893,7 @@ iframe {
     margin: 4rem;
 }
 
-video-post {
+.video-post {
     min-width: 375px;
     max-width: 600px;
     min-height: 300px;

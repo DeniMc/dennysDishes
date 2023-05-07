@@ -11,6 +11,7 @@ require "protect.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="chefspace.css">
+    <link rel="stylesheet" href="navbar.css">
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="swiper-bundle.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,10 +19,10 @@ require "protect.php";
   </head>
   <body>
     <div class="container">
-      <section class="landing-page">
+      <section class="post-landing-page">
         <header class="post-header">
           <div class="logo"></div>
-          <h1>HomeMeal Chef Space</h1>
+          <h1>Chef Support</h1>
           <div class="login-form">
             <form method="post" class="login-form">
               <input type="hidden" name="logout" value="1" />
@@ -33,49 +34,52 @@ require "protect.php";
     <?=$_SESSION["user"]?>
         </header>
 
-        <main class="post-main">
-          <div class="content-card post-board">
-            <h2><a href="#creating-menu">Creating your Menu</a></h2>
-            <ul>
-              <li><a href="#HomeMealGPT">HomeMeal GPT Helper</a></li>
+        <div class="menu-wrapper">
+
+          <a href="#menu" class="menu-link">	Menu<span class="ico-caret-down right" aria-hidden="true"></span>
+          </a>
+          <nav id="menu" role="navigation">
+              <div class="menu">
+                  <ul  class="menu">
+                     
+                      <li  class="has-subnav">
+                      <a href="#creating-menu">Creating your Menu</a>
+                          <ul class="sub-menu">
+                          <li><a href="#HomeMealGPT">HomeMeal GPT Helper</a></li>
               <li>Editing an Existing Dish</li>
               <li>Chef Availability vs Dish Availability</li>
               <li>Limiting Dish availability</li>
               <li>Taking Menu Photos</li>
               <li><a href="#adding-dishes">Adding Dishes / Creating Menu</a></li>
               <li>Adding a new Menu item from template</li>
-              
-            </ul>
-          </div>
-
-          <div class="content-card post-board">
-            <h2><a href="#essential-downloads">Essential Downloads</a></h2>
-            <ul>
-              <li>
+                               
+                          </ul>
+                      </li>
+                      <li  class="has-subnav">
+                      <a href="#essential-downloads">Essential Downloads</a>
+                          <ul class="sub-menu">
+                          <li>
                 Kitchen Cleaning Timetable
               </li>
               <li>Fridge and Freezer temperature record</li>
               <li>Food Safety Labelling and Timestamp</li>
               <li>Hygiene checklist for kitchen</li>
               <li><a href="#reheating">Reheating Food upon delivery</a></li>
-            </ul>
-          </div>
-
-          <div class="content-card post-board">
-            <h2><a href="#marketing">Marketing</a></h2>
-            <ul>
-              <li>
+                          </ul>
+                      </li>
+                      <li  class="has-subnav">
+                      <a href="#marketing">Marketing</a>
+                          <ul class="sub-menu">
+                          <li>
                 Creating your own Marketing Content
               </li>
               <li><a href="#order-flyers">Flyer Ordering Form</a></li>
-              
-            </ul>
-          </div>
-
-          <div class="content-card post-board">
-           <h2><a href="#section4-post">Orders and Delivery</a></h2>
-            <ul>
-              <li>Checking and Managing Orders</li>
+                          </ul>
+                      </li>
+                      <li  class="has-subnav">
+                      <a href="#section4-post">Orders and Delivery</a>
+                          <ul class="sub-menu">
+                          <li>Checking and Managing Orders</li>
               <li>Setting your Availability</li>
               <li>Checking your Orders</li>
               <li>Managing your dish capacity </li>
@@ -86,43 +90,85 @@ require "protect.php";
               <li>Packaging your food for drop off</li>
               <li>Printing your Order labels</li>
               <li>How delivery works</li>
-            </ul>
-          </div>
-
-          <div class="content-card post-board">
-            <h2><a href="#stripe-payments">Stripe and Payments</a></h2>
-            <ul>
-              <li><a href="#payments-with-stripe">Setting up payments with Stripe</a>
+                          </ul>
+                      </li>
+                      <li  class="has-subnav">
+                      <a href="#stripe-payments">Stripe and Payments</a>
+                          <ul class="sub-menu">
+                          <li><a href="#payments-with-stripe">Setting up payments with Stripe</a>
                 
-              </li>
-              <li><a href="#stripe-FAQ">Stripe FAQs</a></li>
-              
-            </ul>
-          </div>
-          <div class="content-card post-board">
-            <h2>Cooking guidelines</h2>
-            <ul>
-              <li>
-               Responsible Cooking Guidelines
-              </li>
-             
-              
-            </ul>
-          </div>
+                </li>
+                <li><a href="#stripe-FAQ">Stripe FAQs</a></li>
+                
+                          </ul>
+                      </li>
 
-          <div class="content-card post-board">
-            <h2>Setting up Profile</h2>
-            <ul>
-              <li>
+                      </li>
+                      <li  class="has-subnav">
+                      <a href="#cooking-guidelines">Cooking Guidelines</a>
+                          <ul class="sub-menu">
+                          <li>
+               <a href="reheating">Responsible Cooking Guidelines</a>
+              </li>
+                          </ul>
+                      </li>
+
+                      </li>
+                      <li  class="has-subnav">
+                      <a href="#">Setting up Profile</a>
+                          <ul class="sub-menu">
+                          <li>
                Adding Photograph
               </li>
               <li>Adding Biography</li>
               <li> <a href="#profileGPT">HomeMeal GPT Helper</a></li>
              
-              
-            </ul>
+                
+                          </ul>
+                      </li>
+                     
+                  </ul>
+              </div>
+          </nav>
+      </div>
+
+      
+
+
+        <main class="post-main">
+
+        
+
+          <h1>Top Chef Tips</h1>
+
+          <div class="top-tips">
+            <div class="top-tip-links">
+               <a href="#HomeMealGPT">Perfect Meal Descriptions</a>
+              <img src="./icons/stars.png" alt="star icon">
+            </div>
+            <div class="top-tip-links">
+              <a href="#order-flyers">Order HomeMeal Flyers</a>
+             <img src="./icons/stars.png" alt="star icon">
+           </div>
+           <div class="top-tip-links">
+            <a href="##essential-downloads">Essential Downloads</a>
+           <img src="./icons/stars.png" alt="star icon">
+         </div>
+         <div class="top-tip-links">
+          <a href="#reheating">Printable Heating Instructions</a>
+         <img src="./icons/stars.png" alt="star icon">
+       </div>
+       <div class="top-tip-links">
+        <a href="##profileGPT">Write a Winning Chefs Profile</a>
+       <img src="./icons/stars.png" alt="star icon">
+     </div>
+       
           </div>
-        </main>
+
+</main>
+
+          
+       
         <div class="space-filler"></div>
         <footer class="post-footer">
           <div class="waves">
@@ -133,13 +179,13 @@ require "protect.php";
           </div>
           <ul class="social_icons">
             <li>
-              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a href="https://www.facebook.com/homemeal.de/"><ion-icon name="logo-facebook"></ion-icon></a>
             </li>
             <li>
-              <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+              <a href="https://www.instagram.com/homemeal.de/"><ion-icon name="logo-instagram"></ion-icon></a>
             </li>
             <li>
-              <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+              <a href="https://www.linkedin.com/company/homemealdeal/"><ion-icon name="logo-linkedin"></ion-icon></a>
             </li>
             <li>
               <a href="https://www.youtube.com/@homemealdeal4332"><ion-icon name="logo-youtube"></ion-icon></a>
@@ -149,7 +195,7 @@ require "protect.php";
               <li><a href="#">Home</a></li>
               <li><a href="https://homemeal.de/impressum/">Impressum</a></li>
               <li><a href="https://homemeal.de/become-a-chef/">Become a Chef</a></li>
-              <li><a href="#">Team</a></li>
+              <li><a href="./pages/contactUs.html">Team</a></li>
              
             </ul>
             <p>@2021 HomeMeal GmbH | All Rights Reserved</p>
@@ -616,7 +662,7 @@ Please select ‘Pickup’ for those chefs intending to have customers collect t
   <div class="slide-content">
       <div class="slide-wrapper swiper-wrapper">
          
-          <div class="edit-meals-card swiper-slide">
+          <div class="edit-meals-card swiper-slide" id="edit-meals-card">
               <div class="edit-meals-image-content">
                   <span class="meals-overlay"></span>
                   <div class="edit-meals-card-image">
@@ -634,7 +680,7 @@ Please select ‘Pickup’ for those chefs intending to have customers collect t
               </div>
           </div>
          
-          <div class="edit-meals-card three-shot-card  swiper-slide">
+          <div class="edit-meals-card three-shot-card  swiper-slide" id="edit-meals-card">
               <div class="edit-meals-image-content">
                   <span class="meals-overlay"></span>
                   <div class="edit-meals-card-image">
@@ -652,7 +698,7 @@ Please select ‘Pickup’ for those chefs intending to have customers collect t
 
               </div>
           </div>
-          <div class="edit-meals-card swiper-slide">
+          <div class="edit-meals-card swiper-slide" id="edit-meals-card">
               <div class="edit-meals-image-content">
                   <span class="meals-overlay"></span>
                   <div class="edit-meals-card-image">
@@ -669,7 +715,7 @@ Please select ‘Pickup’ for those chefs intending to have customers collect t
               </div>
           </div>
 
-          <div class="edit-meals-card three-shot-card swiper-slide">
+          <div class="edit-meals-card three-shot-card swiper-slide" id="edit-meals-card">
               <div class="edit-meals-image-content">
                   <span class="meals-overlay"></span>
                   <div class="edit-meals-card-image">
@@ -688,7 +734,7 @@ Please select ‘Pickup’ for those chefs intending to have customers collect t
               </div>
           </div>
 
-          <div class="edit-meals-card swiper-slide">
+          <div class="edit-meals-card swiper-slide" id="edit-meals-card">
               <div class="edit-meals-image-content">
                   <span class="meals-overlay"></span>
                   <div class="edit-meals-card-image">
@@ -723,7 +769,7 @@ Please select ‘Pickup’ for those chefs intending to have customers collect t
         <h1 id="essential-downloads">Essential Downloads</h1>
 
         <div class="downloads-intro">
-        <h2>Essential Downloads</h2><br>
+ 
 <p>The following documents are required to be completed whenever you are cooking, be that every day, every other day or any combination of days during your working week.<br>
 You are to keep the printouts in folders and keep them readily available for inspection during a visit from the Amt. These are your proof that you are running an organised business and maintaining the highest cleanliness standards possible. If you don't have a home printer it is best to print off all documents in batches; this will keep the cost down and save you needing to go back and forth to get new copies repeatedly.</p><br>
 <p>The following documents are available to you:<br>
@@ -823,9 +869,13 @@ Don't just walk around the market looking for the best ingredients at the best p
 
 </div>
 
-
-        <p id="order-flyers">Order some Marketing Material from HomeMeal <a href="./contact.html"> Right Here</a></p>
-
+    <div class="flyer-form-link">
+        <img src="./icons/rightPoint.png" alt="man pointing icon">
+        <img src="./icons//dust.png" alt="magic dust icon">
+        <p id="order-flyers">Order Marketing flyers from HomeMeal <a href="./contact.html"> RIGHT HERE</a></p>
+        <img src="./icons//dust.png" alt="magic dust icon">
+        <img src="./icons/leftPoint.png" alt="man pointing icon">
+        </div>
         <div class="photograph-dishes">
         <h2>How to photograph your dishes</h2><br>
 <p>One of the main things our chefs talk to us about is getting the best photographs of their dishes. We know that first impressions count and the first sight of a dish is what can tempt you to investigate a chef's full offering.<br><br>
@@ -968,7 +1018,7 @@ If all of your information seems correct but you still haven't received your pay
       
 
     <section class="six post-six post-section">
-      <h1>Cooking Guideines</h1>
+      <h1 id="cooking-guidelines">Cooking Guideines</h1>
 
       <h1 id="reheating">Reheating Instructions</h1>
 
