@@ -327,7 +327,7 @@ footer .wave#wave4
     }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1150px) {
     footer .wave {
         display: none;
     }
@@ -347,6 +347,13 @@ footer .wave#wave4
     }
 
 }
+
+@media screen and (min-width: 1150px) {
+    footer {
+        max-height: 8vh;
+    }
+}
+
 
 /* content cards  */
 
