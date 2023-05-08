@@ -491,6 +491,10 @@ main {
     border-radius: 2rem;
 }
 
+.getStarted a {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 1100px){
     .hero {
         background-position: right;
