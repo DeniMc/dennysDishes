@@ -46,8 +46,7 @@ require "protect.php";
                       <a href="#creating-menu">Creating your Menu</a>
                           <ul class="sub-menu">
                           <li><a href="#HomeMealGPT">HomeMeal GPT Helper</a></li>
-              <li>Editing an Existing Dish</li>
-              <li>Chef Availability vs Dish Availability</li>
+              <li><a href="#edit-meals">Editing an Existing Dish</a></li>
               <li>Limiting Dish availability</li>
               <li>Taking Menu Photos</li>
               <li><a href="#adding-dishes">Adding Dishes / Creating Menu</a></li>
@@ -787,13 +786,9 @@ Please select ‘Pickup’ for those chefs intending to have customers collect t
 <p>The following documents are required to be completed whenever you are cooking, be that every day, every other day or any combination of days during your working week.<br>
 You are to keep the printouts in folders and keep them readily available for inspection during a visit from the Amt. These are your proof that you are running an organised business and maintaining the highest cleanliness standards possible. If you don't have a home printer it is best to print off all documents in batches; this will keep the cost down and save you needing to go back and forth to get new copies repeatedly.</p><br>
 <p>The following documents are available to you:<br>
-<ul>  <li>Fridge Temperature Log</li>
- <li>Kitchen Checklist</li>
-<li>Kitchen Cleaning Log</li>
- <li>Food Safety Labels</li>
-</ul>
+
 </p>
-        </div>
+       
 
         <p>
   <a href="./docs/postboarding/usefulDownloads/HomeMeal_Food_Safety_Labels.pdf"
@@ -815,6 +810,8 @@ You are to keep the printouts in folders and keep them readily available for ins
     >Kitchen Refrigerator Temperature pdf</a
   >
 </p>
+
+</div>
 
       
 

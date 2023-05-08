@@ -379,6 +379,9 @@ footer .wave#wave4
 .top-tip-links:hover {
     background-color: #Fe676a;   
 } 
+.top-tip-links a {
+    text-decoration: none;
+}
 .top-tip-links a:hover {
     color: #F5F2E8;
 } 
@@ -1102,7 +1105,19 @@ padding-left: 5%;
     margin-top: 1rem;
 }
 
+.back-home-btn a {
+    text-decoration: none;
+}
+
 .back-home-btn:hover {
     background-color: #ffc300;
     color: black;
+}
+
+.downloads-intro {
+    padding: 3% 5%;
+}
+
+.downloads-intro p {
+    padding-bottom: 2rem;
 }
