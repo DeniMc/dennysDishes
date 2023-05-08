@@ -279,4 +279,11 @@ text-align: center
     width: 4rem;
 }
 
+#section4-post {
+/* align-items: flex-start; */
+display: block;
+}
 
+#section4-post h1 {
+    text-align: center;
+}

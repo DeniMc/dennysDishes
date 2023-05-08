@@ -29,6 +29,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    padding: 1% 5%;
 }
 
 .two {
@@ -94,7 +95,7 @@ h1	{
 	text-shadow: 1px 1px 4px #000;
     font-family: 'Raleway', 'Lora', sans-serif;
 	left: 0;
-	font-size: calc(1rem + 3vw);
+	font-size: calc(1rem + 2vw);
 }
 
 h3 {
@@ -121,7 +122,7 @@ a {
     
   }
 
-a:link { text-decoration: none; }
+a:link { text-decoration: underline; }
 
 
 a:visited { text-decoration: none; }
@@ -129,7 +130,6 @@ a:visited { text-decoration: none; }
 
 a:hover { 
     text-decoration: none; 
-    font-size: 1.2em;
     color: red;
 
 }
@@ -858,6 +858,10 @@ justify-content: center;
     font-size: 1.2rem;
 }
 
+.post-section {
+    padding: 1% 5%;
+}
+
 .post-section p {
     margin: 20px;
     font-size: 1.2rem;
@@ -992,6 +996,26 @@ iframe {
     margin-top: 0.3rem;
 }
 
+.deposit {
+    width: 80%;
+    margin-top: 3rem;
+}
+
+.deposit ul li {
+    list-style-type: none;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    color: red;
+    font-weight: 600;
+}
+.deposit h2{
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+
 .final-footer {
     position: relative;
     bottom: -410px;
@@ -1065,6 +1089,7 @@ word-break: break-word;
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
+padding-left: 5%;
 }
 
 .back-home-btn {

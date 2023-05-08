@@ -205,6 +205,13 @@ require "protect.php";
       <section class="one post-one post-section">
         <h1 id="creating-menu">Creating your Menu</h1>
 
+        <div class="back-home">
+    <form>
+      <input class="back-home-btn" type="button" value="Go back!" onclick="history.back()">
+     <button class="back-home-btn"><a href="#" class="button1">Go Home</a></button> 
+     </form>
+  </div>
+
         <div class="creating-menu-content">
 
         <p>When you are beginning to think about your menu we encourage you to consider multiple points; what are you confident in making, what represents you, what can you offer that a customer is unlikely to make for themselves and what ingredients are readily available.</p>
@@ -768,6 +775,13 @@ Please select ‘Pickup’ for those chefs intending to have customers collect t
       <section class="two post-two post-section">
         <h1 id="essential-downloads">Essential Downloads</h1>
 
+        <div class="back-home">
+    <form>
+      <input class="back-home-btn" type="button" value="Go back!" onclick="history.back()">
+     <button class="back-home-btn"><a href="#" class="button1">Go Home</a></button> 
+     </form>
+  </div>
+
         <div class="downloads-intro">
  
 <p>The following documents are required to be completed whenever you are cooking, be that every day, every other day or any combination of days during your working week.<br>
@@ -809,6 +823,13 @@ You are to keep the printouts in folders and keep them readily available for ins
       </section>
       <section class="three post-three post-section">
         <h1 id="marketing">Marketing</h1>
+
+        <div class="back-home">
+    <form>
+      <input class="back-home-btn" type="button" value="Go back!" onclick="history.back()">
+     <button class="back-home-btn"><a href="#" class="button1">Go Home</a></button> 
+     </form>
+  </div>
 
         <p>
   <a href="./docs/postboarding/marketing/HomeMeal_Marketing_Guide.pdf"
@@ -942,9 +963,16 @@ The HomeMeal top tip: Don't over complicate your shot! Keep it simple. <em>Simpl
       <section class="four post-four post-section" id="section4-post">
         <h1>Orders and Delivery</h1>
 
+        <div class="back-home">
+    <form>
+      <input class="back-home-btn" type="button" value="Go back!" onclick="history.back()">
+     <button class="back-home-btn"><a href="#" class="button1">Go Home</a></button> 
+     </form>
+  </div>
+
         <div class="orders-delivery">
 
-        <h2>Checking and Managing Orders</h2>
+        <h3>Checking and Managing Orders</h3>
 <p>Chefs have three sections to manage their orders: Past, Active, and Requests.
 <ul>
    <li>Active section displays orders that are currently being processed.</li>
@@ -955,10 +983,10 @@ To access the three sections click on the Orders button, second from left in the
 </div>
 
 <div class="orders-delivery">
-<h2>Preparing Orders for Collection/Delivery</h2>
+<h3>Preparing Orders for Collection/Delivery</h3>
 <p>The collection service is organised by HomeMeal.<br>
 HomeMeal when post a Collection Timetable in the WhatsApp group chat every day between 08:00 - 09:00. It is your responsibility to inform yourself of the time slot you have been allocated and to have the orders bagged and ready for pick up at that time.<br>
-Collections begin at 11:00.<br><
+Collections begin at 11:00.<br><br>
 HomeMeal will try to optimise this table as much as possible for you. Sometimes it might happen that your pick up time is the first, at 11:00, or your pick up time might not meet your personal schedule on that particular day - we will try our best to accommodate everyone at all times but please be aware that it is not always possible.<br>
 Should the time slot you have been allocated not meet your time schedule for the day you should contact the Collections Manager on WhatsApp <strong>+49 176 5766 5089</strong> to cancel the collection no later than 60 minutes before the allocated collection time. Should you cancel collection it becomes your responsibility to ensure delivery of the orders to the HomeMeal hub at:
 <strong>Waldemarstrasse 39, 10999, Berlin-Kreuzberg</strong>.</p><br>
@@ -998,6 +1026,13 @@ This number is the direct line to the HomeMeal Delivery Manager. Please be sure 
         <section class="five post-five post-section">
             <h1 id="payments-with-stripe"">Stripe and Payments</h1>
 
+            <div class="back-home">
+    <form>
+      <input class="back-home-btn" type="button" value="Go back!" onclick="history.back()">
+     <button class="back-home-btn"><a href="#" class="button1">Go Home</a></button> 
+     </form>
+  </div>
+
             <div class="stripe-payments" id="stripe-payments">
               <h2 id="stripe-FAQ">Stripe FAQ</h2><br>
 <strong>Issues With Payments</strong><br>
@@ -1019,6 +1054,13 @@ If all of your information seems correct but you still haven't received your pay
 
     <section class="six post-six post-section">
       <h1 id="cooking-guidelines">Cooking Guideines</h1>
+
+      <div class="back-home">
+    <form>
+      <input class="back-home-btn" type="button" value="Go back!" onclick="history.back()">
+     <button class="back-home-btn"><a href="#" class="button1">Go Home</a></button> 
+     </form>
+  </div>
 
       <h1 id="reheating">Reheating Instructions</h1>
 
@@ -1121,6 +1163,13 @@ If all of your information seems correct but you still haven't received your pay
     </section>
     <section class="seven post-seven post-section">
       <h1>Setting up Profile</h1>
+
+      <div class="back-home">
+    <form>
+      <input class="back-home-btn" type="button" value="Go back!" onclick="history.back()">
+     <button class="back-home-btn"><a href="#" class="button1">Go Home</a></button> 
+     </form>
+  </div>
 
       <p id="chef-profile-pdf">
   <a href="./docs/postboarding/chefProfile/HomeMeal_Creating_Chef_Profile.pdf"
@@ -1315,6 +1364,13 @@ If all of your information seems correct but you still haven't received your pay
         <h2 class="HomeMealGPT" id="profileGPT"><a href="./GPTprofile.html">HomeMealGPT Helper</a></h2>
      
              </div>
+
+             <div class="back-home">
+    <form>
+      <input class="back-home-btn" type="button" value="Go back!" onclick="history.back()">
+     <button class="back-home-btn"><a href="#" class="button1">Go Home</a></button> 
+     </form>
+  </div>
 
 
     </section>
