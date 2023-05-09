@@ -25,7 +25,7 @@ section {
 }
 
 .one {
-    background-color: #ffc300;
+    /* background-color: #ffc300; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -33,7 +33,7 @@ section {
 }
 
 .two {
-    background-color: #Fe676a;
+    /* background-color: #Fe676a; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -41,7 +41,7 @@ section {
 }
 
 .three {
-    background-color: #00aa9f;
+    /* background-color: #00aa9f; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -49,7 +49,7 @@ section {
 }
 
 .four {
-    background-color: #ffc300;
+    /* background-color: #ffc300; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,7 +64,7 @@ section {
 }
 
 .five {
-    background-color: #Fe676a;
+    /* background-color: #Fe676a; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -74,7 +74,7 @@ section {
 
 
 .six {
-    background-color: #00aa9f;
+    /* background-color: #00aa9f; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -82,7 +82,7 @@ section {
 }
 
 .seven {
-    background-color: #FFc300;
+    /* background-color: #FFc300; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -107,8 +107,8 @@ h3 {
 .logo {
     background: url(./images/HMWhite.png);
     background-size: cover;
-    width: 170px;
-    height: 170px;
+    width: 140px;
+    height: 140px;
 }
 @media screen and (max-width: 968px) {
     .logo { 
@@ -118,7 +118,7 @@ h3 {
 }
 
 a {
-   color: #fff;
+   color: blue;
     
   }
 
@@ -162,7 +162,7 @@ input[type=submit] {
     justify-content: flex-start;
     min-height: 70vh;
     max-height: 300vh;
-    background: #a6fac2;
+    /* background: #a6fac2; */
 }
 
 header {
