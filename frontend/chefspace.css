@@ -137,10 +137,12 @@
 /* subheading h3s */
 
 .sub-heads {
-    color: #fff;
-font-size: 2rem;
-text-shadow: 5px 5px 5px black;
-text-align: center
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    font-size: 2rem;
+    text-shadow: 5px 5px 5px #00aa9f;
+    font-family: "Raleway", sans-serif; 
 }
 
 /* Creating Menu Style */
@@ -156,7 +158,12 @@ text-align: center
 }
 
 .creating-menu-content h2, h3 {
+    text-align: center;
+    font-weight: 700;
+    color: black;
     font-size: 2rem;
+    text-shadow: 5px 5px 5px #00aa9f;
+    font-family: "Raleway", sans-serif; 
 }
 
 .creating-menu-content h5 {
@@ -188,15 +195,20 @@ text-align: center
 
 .HomeMealGPT {
     margin: 3%;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 900;
     color: black;
     width: 50%;
-    background-color: red;
-    box-shadow: 5px 5px 5px white;
+    background-color: #00aa9f;
+    box-shadow: 5px 5px 5px black;
     text-align: center;
     padding: 1.2rem;
     border-radius: 3rem;
+}
+
+.HomeMealGPT a {
+    text-decoration: none;
+    color: #fff;
 }
 
 
@@ -219,8 +231,11 @@ text-align: center
 
 .HomeMealGPT:hover {
     background-color: white;
-    color: #2cb484;
-    box-shadow: 5px 5px 5px red;
+    box-shadow: 5px 5px 5px #00aa9f;
+} 
+.HomeMealGPT a:hover {
+    color: #00aa9f;
+    
 } 
 
 .pdf-container {
@@ -249,10 +264,13 @@ text-align: center
     display: flex;
     flex-direction: column; 
     justify-content: flex-start;
-    min-height: 70vh;
+    min-height: 100vh;
     max-height: 300vh;
-    background-color: #a6fac2;
+    /* background-color: #a6fac2; */
+}
 
+.post-main {
+    padding: 5%;
 }
 
 /* Marketing section: route to Flyer Order Form */
@@ -260,7 +278,7 @@ text-align: center
 .flyer-form-link {
     display: flex;
     justify-content: space-between;
-    background-color: #ffc300;
+    background-color: #2cb484;
     padding: 1rem;
     border-radius: 2rem;
     margin-bottom: 2rem;  
@@ -273,6 +291,8 @@ text-align: center
 .flyer-form-link a {
     margin-left: 1em;
     font-weight: 700;
+    text-decoration: none;
+    color: #fff;
 }
 
 .flyer-form-link img {
@@ -287,3 +307,8 @@ display: block;
 #section4-post h1 {
     text-align: center;
 }
+
+
+
+
+ 

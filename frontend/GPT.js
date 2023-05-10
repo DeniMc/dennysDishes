@@ -1,4 +1,3 @@
-const GPT_API_KEY = config.GPT_API_KEY;
 
 const submitButton = document.querySelector('#submit');
 const outputElement = document.querySelector('#output')
@@ -11,12 +10,23 @@ function changeInput () {
    inputElement.value = value
 }
 
+async function getApiKey() {
+    try {
+      const response = await fetch('/api/get-api-key'); // Modify the URL to your backend endpoint that returns the API key
+      const data = await response.json();
+      return data.apiKey; // Assuming the response JSON has a key named 'apiKey'
+    } catch (error) {
+     console.error(error);
+    }
+  }
+
 async function getMessage(){
     console.log('clicked');
+    const apiKey = await getApiKey();
     const options = {
         method: 'POST',
         headers: {
-            'Authorization': `Bearer ${GPT_API_KEY}`,
+            'Authorization': `Bearer ${apiKey}`,
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({

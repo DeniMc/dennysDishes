@@ -1,8 +1,4 @@
-<?php
-// (A) THIS IS A PROTECTED DUMMY PAGE
-require "protect.php";
 
-// (B) HTML AS USUAL ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -22,16 +18,11 @@ require "protect.php";
       <section class="post-landing-page">
         <header class="post-header">
           <div class="logo"></div>
-          <h1>Chef Support</h1>
+          <h1 id="headline2">Chef Support</h1>
           <div class="login-form">
-            <form method="post" class="login-form">
-              <input type="hidden" name="logout" value="1" />
-              <input type="submit" value="Logout" />
-            </form>
+            <button class="logout-button" id="logout-button-chefspace">Logout</button>
           </div>
           
-          <div id="currentUser">
-    <?=$_SESSION["user"]?>
         </header>
 
         <div class="menu-wrapper">
@@ -206,7 +197,7 @@ require "protect.php";
 
         <div class="back-home">
     <form>
-      <input class="back-home-btn" type="button" value="Go back!" onclick="history.back()">
+      <input class="back-home-btn" type="button" value="Go back" onclick="history.back()">
      <button class="back-home-btn"><a href="#" class="button1">Go Home</a></button> 
      </form>
   </div>
@@ -776,7 +767,7 @@ Please select ‘Pickup’ for those chefs intending to have customers collect t
 
         <div class="back-home">
     <form>
-      <input class="back-home-btn" type="button" value="Go back!" onclick="history.back()">
+      <input class="back-home-btn" type="button" value="Go back" onclick="history.back()">
      <button class="back-home-btn"><a href="#" class="button1">Go Home</a></button> 
      </form>
   </div>
@@ -823,7 +814,7 @@ You are to keep the printouts in folders and keep them readily available for ins
 
         <div class="back-home">
     <form>
-      <input class="back-home-btn" type="button" value="Go back!" onclick="history.back()">
+      <input class="back-home-btn" type="button" value="Go back" onclick="history.back()">
      <button class="back-home-btn"><a href="#" class="button1">Go Home</a></button> 
      </form>
   </div>
@@ -962,7 +953,7 @@ The HomeMeal top tip: Don't over complicate your shot! Keep it simple. <em>Simpl
 
         <div class="back-home">
     <form>
-      <input class="back-home-btn" type="button" value="Go back!" onclick="history.back()">
+      <input class="back-home-btn" type="button" value="Go back" onclick="history.back()">
      <button class="back-home-btn"><a href="#" class="button1">Go Home</a></button> 
      </form>
   </div>
@@ -1025,7 +1016,7 @@ This number is the direct line to the HomeMeal Delivery Manager. Please be sure 
 
             <div class="back-home">
     <form>
-      <input class="back-home-btn" type="button" value="Go back!" onclick="history.back()">
+      <input class="back-home-btn" type="button" value="Go back" onclick="history.back()">
      <button class="back-home-btn"><a href="#" class="button1">Go Home</a></button> 
      </form>
   </div>
@@ -1054,7 +1045,7 @@ If all of your information seems correct but you still haven't received your pay
 
       <div class="back-home">
     <form>
-      <input class="back-home-btn" type="button" value="Go back!" onclick="history.back()">
+      <input class="back-home-btn" type="button" value="Go back" onclick="history.back()">
      <button class="back-home-btn"><a href="#" class="button1">Go Home</a></button> 
      </form>
   </div>
@@ -1163,7 +1154,7 @@ If all of your information seems correct but you still haven't received your pay
 
       <div class="back-home">
     <form>
-      <input class="back-home-btn" type="button" value="Go back!" onclick="history.back()">
+      <input class="back-home-btn" type="button" value="Go back" onclick="history.back()">
      <button class="back-home-btn"><a href="#" class="button1">Go Home</a></button> 
      </form>
   </div>
@@ -1364,7 +1355,7 @@ If all of your information seems correct but you still haven't received your pay
 
              <div class="back-home">
     <form>
-      <input class="back-home-btn" type="button" value="Go back!" onclick="history.back()">
+      <input class="back-home-btn" type="button" value="Go back" onclick="history.back()">
      <button class="back-home-btn"><a href="#" class="button1">Go Home</a></button> 
      </form>
   </div>
@@ -1380,6 +1371,8 @@ If all of your information seems correct but you still haven't received your pay
 
 <!-- JavaScript -->
 <script src="app.js"></script>
+
+<script src="logout.js"></script>
 
 
     <script

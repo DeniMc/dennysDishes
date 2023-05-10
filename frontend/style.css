@@ -91,17 +91,27 @@ section {
 
 h1	{
 	text-align: center;
-	color: white;
+	color: black;
 	text-shadow: 1px 1px 4px #000;
     font-family: 'Raleway', 'Lora', sans-serif;
+    text-shadow: 3px 2px 2px #00aa9f;
 	left: 0;
-	font-size: calc(1rem + 2vw);
+	font-size: calc(0.9rem + 1.6vw);
+}
+
+#headline, #headline2 {
+    color: white;
+    text-shadow: 5px 3px 3px black;
+    font-size: calc(1rem + 2vw);
 }
 
 h3 {
-    font-family: 'Raleway', 'Lora', sans-serif;
-    text-shadow: 1px 1px 4px whitesmoke;
-    margin: 2rem;  
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    font-size: 2rem;
+    text-shadow: 2px 2px 1px #00aa9f;
+    font-family: "Raleway", sans-serif; 
 }
 
 .logo {
@@ -414,15 +424,13 @@ main {
     padding: 20px;
 }
 
-.content-card {
+/* .content-card {
     max-width: 400px;
     min-height: 15vh;
     margin: 20px;
     display: flex;
     flex-direction: column;
    justify-content: top;
-   /* padding: 20px; */
-   /* border: #Fe676a 3px solid; */
    border-radius: 1rem;
    background: #ffc300;
    color: #fff;
@@ -444,7 +452,7 @@ main {
     text-align: center;
     margin-bottom: 5px;
     font-weight: 600;   
-}
+} */
 
 /* Hero landing page */
 .hero {
@@ -468,6 +476,7 @@ main {
 }
 
 .call-to-action h1 {
+    color: #fff;
     font-size: 5.4rem;
     font-weight: 700;
     text-shadow: 35px 25px 10px black;
@@ -483,16 +492,17 @@ main {
 .getStarted {
     margin-top: 15%;
     width: 25%;
-    color: #fff;
+    color: black;
     font-size: 1.2rem;
     font-weight: 700;
-    background: #Fe676a;
+    background: #2cb484;
     padding: 1.2rem;
     border-radius: 2rem;
 }
 
 .getStarted a {
     text-decoration: none;
+    color: #fff;
 }
 
 @media screen and (max-width: 1100px){
@@ -843,19 +853,6 @@ justify-content: center;
     margin: 1rem;
 }
 
-/* Postboarding Chefs Space  */
-
-.post-header {
-    background: #Fe676a;
-    min-height: 8vh;
-    max-height: 12vh;
-}
-
-.post-footer {
-    background: #Fe676a;
-}
-
-.post-main { background-color: #bbf6c5;}
 
 .post-board h2 { 
     background: #2cb484;
@@ -893,7 +890,7 @@ justify-content: center;
 .media-post {
     min-width: 375px;
     max-width: 600px;
-    border: #2cb484 6px solid;
+    border: #2cb484 solid 1px;
     border-radius: 1rem;
     background-color: #F5F2E8;
     padding: 1rem;
@@ -910,7 +907,7 @@ justify-content: center;
     text-align: center;
     font-weight: 900;
     font-size: 1.9rem;
-    font-family: "league-gothic", sans-serif;
+    /* font-family: "league-gothic", sans-serif; */
     border-bottom: #000 1px solid;
 }
 
@@ -948,7 +945,9 @@ iframe {
 .h2 {
     text-align: center;
     font-weight: 700;
-    font-size: 2.2rem;
+    color: black;
+    font-size: 2rem;
+    text-shadow: 2px 2px 1px #00aa9f;
     font-family: "Raleway", sans-serif;
 }
 
@@ -963,7 +962,7 @@ iframe {
 .reheating-card {
     width: 350px;
     height: 400px;
-    border: #Fe676a solid 3px;
+    border: #2cb484 solid 1px;
     /* margin: 1rem;
     margin-right: 1rem; */
     border-radius: 1.5rem;
@@ -975,9 +974,12 @@ iframe {
 }
 
 .reheating-container h2 {
-    font-size: 2rem;
-    color: white;
     text-align: center;
+    font-weight: 700;
+    color: white;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 1px #00aa9f;
+    font-family: "Raleway", sans-serif;
 }
 
 .reheating-container img {
@@ -1018,9 +1020,11 @@ iframe {
 }
 .deposit h2{
     text-align: center;
-    font-size: 2em;
-    color: white;
-    text-shadow: 5px 5px 5px black;
+    font-weight: 700;
+    color: black;
+    font-size: 2rem;
+    text-shadow: 2px 2px 1px #00aa9f;
+    font-family: "Raleway", sans-serif;
 }
 
 
@@ -1042,7 +1046,7 @@ iframe {
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
-    border: #FFc300 solid 5px;
+    border: #2cb484 solid 1px;
     border-radius: 1rem;
     padding: .5rem;
     margin: 2rem;
@@ -1050,8 +1054,11 @@ iframe {
 
 .guidelines h2 {
     text-align: center;
-    font-weight: 800;
+    font-weight: 700;
+    color: black;
     font-size: 2rem;
+    text-shadow: 2px 2px 1px #00aa9f;
+    font-family: "Raleway", sans-serif;
 }
 
 .guidelines li {
@@ -1073,7 +1080,7 @@ iframe {
     align-items: center;
    min-width: 370px;
    max-width: 650px;
-    border: #000 solid 3px;
+    border: #2cb484 solid 1px;
     margin: 1.5rem;
     padding: 1rem;
     word-wrap: break-word;
@@ -1082,9 +1089,12 @@ word-break: break-word;
 }
 
 .legal-req h2 {
-    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    color: black;
     font-size: 2rem;
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 2px 2px 1px #00aa9f;
+    font-family: "Raleway", sans-serif;
 }
 
 .legal-req li {
@@ -1101,22 +1111,26 @@ padding-left: 5%;
 }
 
 .back-home-btn {
-    color: #fff;
-    background-color: #Fe676a;
+    color: black;
+    background-color: #00aa9f;
     padding: 0.3rem 1rem;
     font-size: 1.2em;
     border-radius: 3rem;
     margin-left: 1rem;
-    margin-top: 1rem;
+    margin-top: 1rem;   
 }
 
 .back-home-btn a {
     text-decoration: none;
+    color: black;
+}
+.back-home-btn a:hover{
+    color: white;
 }
 
 .back-home-btn:hover {
-    background-color: #ffc300;
-    color: black;
+    background-color: #2cb484;
+    color: #fff;
 }
 
 .downloads-intro {
@@ -1125,4 +1139,33 @@ padding-left: 5%;
 
 .downloads-intro p {
     padding-bottom: 2rem;
+}
+
+/* login / logout button provo */
+
+.logout-button {
+    background-color: #fff;
+    font-family: 'Raleway', 'Lora', sans-serif;
+    margin-right: 15px;
+    color: #00aa9f;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px black;
+}
+
+.logout-button a {
+    text-decoration: none;
+    color: #00aa9f;
+}
+
+.logout-button a:hover {
+    color: #fff;
+}
+
+.logout-button:hover {
+    background-color: #00aa9f;
+    color: #fff;
+    box-shadow: 5px 5px 10px white;
 }
